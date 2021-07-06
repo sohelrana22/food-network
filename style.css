@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: 900;
+}
+.blue-color{
+    color: blue;
+}
+.half-width{
+    width: 50%;
+    padding: 20px;
+    margin: 90px 20px 50px 15px;
+}
+.half-width img{
+    width: 80%;
+}
+.flexible{
+    display: flex;
+}
+.button{
+    margin-top: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(blue, cyan);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}        
+
+.top-banner{
+    background-image: url(images/Frame56.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about-me{
+    background-image: url(images/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.my-cook h2{
+    text-align: center;
+}
+.my-cook p{
+    height: 600px;
+    padding: 10px 180px;
+    
+}
+.card-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    margin: 0 10px 10px 60px;
+    padding: 80px 10;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 5px gray;
+}
+.card2{
+    width: 150px;
+    margin: o 10px 10px 60px;
+    padding: 50px 30px;
+    
+
+}
+.image-style{
+    width: 100%;
+}
+.card-body{
+    padding: 5px;
+}
+.card-title{
+    font-size: 900;
+    text-align: center;
+}
+.parent{
+
+    width:80%;
+   margin :0 auto;
+   display :flex;
+   align-items:center;
+   justify-content: space-around;
+   box-sizing: border-box;
+    border-radius: 5px;
+}
+.food{
+    color: cyan;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
